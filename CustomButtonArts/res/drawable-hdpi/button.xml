@@ -4,8 +4,8 @@
     	android:layout_height="wrap_content"
          >
      	<item android:state_pressed="true" 
-           	android:drawable="@drawable/but2" /> <!-- pressed -->
+           	android:drawable="@drawable/bu2" /> <!-- pressed -->
      	<item android:state_focused="true"
-           	android:drawable="@drawable/but2" /> <!-- focused -->
-     	<item android:drawable="@drawable/but1" /> <!-- default -->
+           	android:drawable="@drawable/bu2" /> <!-- focused -->
+     	<item android:drawable="@drawable/bu1" /> <!-- default -->
  	</selector>
