@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/red_alovisco"
+    >
+
+    <RelativeLayout
+        
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:background="@drawable/extra_clean"
+        >
+        <ListView
+                           
+        android:id="@+id/mylist"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:dividerHeight="0dp"
+        android:choiceMode="singleChoice"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+         > 
+         
+     </ListView>
+        
+        <RelativeLayout 
+            
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="200dp"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+             >
+               <ImageView
+        android:id="@+id/imageView1"
+        android:scaleType="fitXY"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/red_alovisco1" />
+
+               <ImageButton
+                   android:id="@+id/imageButton"
+                   android:layout_width="50dp"
+                   android:layout_height="50dp"
+                   android:layout_alignParentLeft="true"
+                   android:layout_centerVertical="true"
+                   android:scaleType="fitXY"
+                   android:src="@drawable/unknown_letter" />
+            
+        </RelativeLayout>
+  
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="16dp"
+        android:text="CUSTOM TEMPLATE"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:background="#00000000"
+        android:src="@drawable/post" />
+
+</RelativeLayout>
